@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 9790031d540277848a15e34cc9c896fe
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'stickmanNeck' has translation animation
+      that will be discarded.\n\t'stickmanLCollarbone' has translation animation
+      that will be discarded.\n\t'stickmanLForearm2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'stickmanLDigit01' has
+      translation animation that will be discarded.\n\t'stickmanRCollarbone' has
+      translation animation that will be discarded.\n\t'stickmanRForearm2' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: stickmanPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLForearm1
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRForearm1
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: 'Bonehair '
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit02
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit03
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit11
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit13
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit21
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit22
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit23
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit41
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit42
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit43
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit51
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit52
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanLDigit53
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit02
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit03
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit11
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit13
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit21
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit22
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit23
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit41
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit42
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit43
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit51
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit52
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanRDigit53
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: stickmanSpine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: walk glass women(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rootBone
+      parentName: walk glass women(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071072, y: -0.00000009483041, z: 0.00000003161008, w: 0.7071064}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: stickmanPelvis
+      parentName: rootBone
+      position: {x: 0.0018385248, y: 0.023387432, z: 1.5390817}
+      rotation: {x: 0.7043718, y: -0.056499075, z: -0.70430267, w: -0.06801479}
+      scale: {x: 0.99999976, y: 1.0000002, z: 0.9999998}
+    - name: stickmanSpine1
+      parentName: stickmanPelvis
+      position: {x: -0.08538973, y: -0.039824534, z: 0.000000007450581}
+      rotation: {x: -0.022599949, y: -0.018645883, z: -0.23188311, w: 0.9723024}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999999}
+    - name: stickmanSpine2
+      parentName: stickmanSpine1
+      position: {x: -0.22735637, y: 0.00000011920929, z: -0.000000026077032}
+      rotation: {x: -0.09887899, y: -0.015480756, z: 0.07369281, w: 0.99224627}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: stickmanSpine3
+      parentName: stickmanSpine2
+      position: {x: -0.23444605, y: -0.00000017881393, z: 0.000000007450581}
+      rotation: {x: -0.042980686, y: -0.013843584, z: 0.13735373, w: 0.9894923}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: stickmanNeck
+      parentName: stickmanSpine3
+      position: {x: -0.3638792, y: 0.011105657, z: -0.0017699525}
+      rotation: {x: 0.03907269, y: 0.0028950942, z: -0.2123687, w: 0.9764039}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1}
+    - name: stickmanHead
+      parentName: stickmanNeck
+      position: {x: -0.1762979, y: 0, z: -0.000000007450581}
+      rotation: {x: 0.04364979, y: 0.006253584, z: 0.13531043, w: 0.98982155}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: 'Bonehair '
+      parentName: stickmanHead
+      position: {x: -0.23186707, y: 0.037344158, z: 0.00000023841858}
+      rotation: {x: 0.9982176, y: 0.059680294, z: 0.0000000048096127, w: -0.00000026707923}
+      scale: {x: 0.9999999, y: 0.99999964, z: 1.0000004}
+    - name: Bone hair001
+      parentName: 'Bonehair '
+      position: {x: 0.0050172806, y: 0.17260838, z: 0.00000023469329}
+      rotation: {x: 0.03709591, y: 0.008887339, z: 0.9476537, w: -0.31701332}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Bone hair002
+      parentName: Bone hair001
+      position: {x: -0.19602561, y: 0.00000011920929, z: 0.000000014901161}
+      rotation: {x: 0.0032358412, y: -0.034329895, z: 0.053129263, w: 0.9979921}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Bone004
+      parentName: Bone hair002
+      position: {x: -0.1684084, y: -0.00000035762787, z: -0.000000014901161}
+      rotation: {x: 0.000000040978197, y: -0.0000000018626423, z: 0.00000007450581, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: stickmanLCollarbone
+      parentName: stickmanSpine3
+      position: {x: -0.32374227, y: -0.0034172833, z: 0.07969429}
+      rotation: {x: 0.004240113, y: 0.7523035, z: 0.08338786, w: 0.6535044}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: stickmanLUpperarm
+      parentName: stickmanLCollarbone
+      position: {x: -0.2638332, y: 0, z: -0.00000011920929}
+      rotation: {x: 0.11586943, y: -0.06603495, z: 0.020820098, w: 0.99084824}
+      scale: {x: 0.99999833, y: 0.9999995, z: 1.0000011}
+    - name: stickmanLForearm1
+      parentName: stickmanLUpperarm
+      position: {x: -0.39898682, y: 0.0000026077032, z: 0.00000035762787}
+      rotation: {x: -0.117260836, y: -0.007079808, z: -0.01825108, w: 0.99290824}
+      scale: {x: 1.0000005, y: 1, z: 1.0000002}
+    - name: stickmanLForearm2
+      parentName: stickmanLForearm1
+      position: {x: -0.20809627, y: -0.00000011920929, z: 0.00000017881393}
+      rotation: {x: 0.14053214, y: 0.000000026318116, z: 0.000000026365434, w: 0.9900761}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1.0000001}
+    - name: stickmanLPalm
+      parentName: stickmanLForearm2
+      position: {x: -0.2080965, y: -0.000000059604645, z: 0.00000023841858}
+      rotation: {x: -0.55281645, y: -0.13747036, z: 0.08217705, w: 0.817767}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000006}
+    - name: stickmanLDigit01
+      parentName: stickmanLPalm
+      position: {x: 0.006585896, y: -0.015208483, z: 0.05838546}
+      rotation: {x: 0.53706396, y: 0.18792738, z: -0.32366416, w: 0.7559677}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+    - name: stickmanLDigit02
+      parentName: stickmanLDigit01
+      position: {x: -0.05912152, y: 0, z: 0.00000023841858}
+      rotation: {x: -0.021788137, y: -0.004095865, z: 0.034140307, w: 0.99917114}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1}
+    - name: stickmanLDigit03
+      parentName: stickmanLDigit02
+      position: {x: -0.054416537, y: 0, z: 0}
+      rotation: {x: 0.0000009536742, y: -0.0000012665986, z: -0.000000089405745, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: stickmanLDigit11
+      parentName: stickmanLPalm
+      position: {x: -0.11865306, y: -0.0007392168, z: 0.05046296}
+      rotation: {x: 0.02281757, y: 0.01716543, z: -0.07983723, w: 0.9963989}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999976}
+    - name: stickmanLDigit12
+      parentName: stickmanLDigit11
+      position: {x: -0.07538718, y: 0, z: 0.000000059604645}
+      rotation: {x: -0.010941921, y: -0.0048711933, z: 0.038158014, w: 0.9991999}
+      scale: {x: 0.99999964, y: 0.99999976, z: 1.0000002}
+    - name: stickmanLDigit13
+      parentName: stickmanLDigit12
+      position: {x: -0.03573197, y: 0, z: 0.00000011920929}
+      rotation: {x: -0.0000012320871, y: -0.00000056467, z: 0.0017453159, w: 0.9999985}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999994}
+    - name: stickmanLDigit21
+      parentName: stickmanLPalm
+      position: {x: -0.13192308, y: 0.0001052618, z: 0.010373652}
+      rotation: {x: -0.1064154, y: -0.038965113, z: -0.029395051, w: 0.9931231}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999976}
+    - name: stickmanLDigit22
+      parentName: stickmanLDigit21
+      position: {x: -0.05376494, y: 0, z: 0.00000011920929}
+      rotation: {x: -0.0046065412, y: 0.009124972, z: 0.037818022, w: 0.9992324}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: stickmanLDigit23
+      parentName: stickmanLDigit22
+      position: {x: -0.042952895, y: -0.00000023841858, z: -0.000000059604645}
+      rotation: {x: -0.0000006433636, y: -0.0000009142547, z: -0.02704934, w: 0.99963415}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: stickmanLDigit41
+      parentName: stickmanLPalm
+      position: {x: -0.12713385, y: 0.0000885725, z: -0.030292526}
+      rotation: {x: -0.059927754, y: 0.00092361815, z: 0.073681735, w: 0.99547917}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.99999976}
+    - name: stickmanLDigit42
+      parentName: stickmanLDigit41
+      position: {x: -0.06489295, y: -0.00000011920929, z: 0.00000017881393}
+      rotation: {x: -0.00000086054155, y: -0.0000013484379, z: 0.038201287, w: 0.99927014}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999995}
+    - name: stickmanLDigit43
+      parentName: stickmanLDigit42
+      position: {x: -0.04017961, y: 0, z: 0.00000014901161}
+      rotation: {x: -0.00000008864158, y: 0.0000000053592073, z: 0.10800013, w: 0.9941509}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000004}
+    - name: stickmanLDigit51
+      parentName: stickmanLPalm
+      position: {x: -0.1311732, y: -0.00039589405, z: -0.07025543}
+      rotation: {x: -0.31110296, y: -0.038691685, z: -0.0042799385, w: 0.94957864}
+      scale: {x: 0.9999995, y: 1.0000001, z: 0.99999964}
+    - name: stickmanLDigit52
+      parentName: stickmanLDigit51
+      position: {x: -0.04854971, y: 0, z: 0}
+      rotation: {x: -0.00000044703464, y: -0.0000007599589, z: 0.03355446, w: 0.999437}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: stickmanLDigit53
+      parentName: stickmanLDigit52
+      position: {x: -0.03710577, y: 0, z: 0}
+      rotation: {x: -0.000000004477802, y: 0.00000005990137, z: 0.19765891, w: 0.98027086}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: stickmanRCollarbone
+      parentName: stickmanSpine3
+      position: {x: -0.32168698, y: -0.004924506, z: -0.081902005}
+      rotation: {x: -0.0065828976, y: -0.7580445, z: 0.08598544, w: 0.64647645}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999946}
+    - name: stickmanRUpperarm
+      parentName: stickmanRCollarbone
+      position: {x: -0.26383346, y: 0.000000059604645, z: -0.00000047683716}
+      rotation: {x: 0.43614975, y: -0.01690983, z: -0.16130109, w: 0.8851381}
+      scale: {x: 1.0000015, y: 0.9999999, z: 0.99999875}
+    - name: stickmanRForearm1
+      parentName: stickmanRUpperarm
+      position: {x: -0.3989886, y: 0.0000019222498, z: 0.000000834465}
+      rotation: {x: -0.09300971, y: 0.016521856, z: -0.0379551, w: 0.9948044}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999997}
+    - name: stickmanRForearm2
+      parentName: stickmanRForearm1
+      position: {x: -0.20809555, y: 0.00000011920929, z: 0.00000017881393}
+      rotation: {x: 0.0666026, y: 0.000000021319039, z: 0.00000009565003, w: 0.9977796}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: stickmanRPalm
+      parentName: stickmanRForearm2
+      position: {x: -0.20809555, y: 0.00000023841858, z: 0.00000017881393}
+      rotation: {x: 0.7249616, y: 0.15314513, z: -0.0724688, w: 0.66762686}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999998}
+    - name: stickmanRDigit01
+      parentName: stickmanRPalm
+      position: {x: 0.006730348, y: -0.014934301, z: -0.058769763}
+      rotation: {x: -0.6953092, y: -0.3624213, z: -0.029136883, w: 0.6199572}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: stickmanRDigit02
+      parentName: stickmanRDigit01
+      position: {x: -0.059118986, y: -0.000000059604645, z: 0.00000011920929}
+      rotation: {x: 0.021719944, y: 0.004136425, z: 0.03418693, w: 0.9991709}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: stickmanRDigit03
+      parentName: stickmanRDigit02
+      position: {x: -0.054412097, y: -0.000000059604645, z: 0}
+      rotation: {x: 0.0000009238723, y: -0.0000011771916, z: 0.00000011921038, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: stickmanRDigit11
+      parentName: stickmanRPalm
+      position: {x: -0.11864087, y: -0.0007044673, z: -0.05048704}
+      rotation: {x: -0.109755956, y: -0.020868609, z: -0.084523015, w: 0.9901384}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: stickmanRDigit12
+      parentName: stickmanRDigit11
+      position: {x: -0.07538435, y: 0.00000011920929, z: -0.000000059604645}
+      rotation: {x: 0.010905013, y: 0.0049310206, z: 0.03820299, w: 0.9991984}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+    - name: stickmanRDigit13
+      parentName: stickmanRDigit12
+      position: {x: -0.03572917, y: -0.00000011920929, z: 0.00000017881393}
+      rotation: {x: -0.0000013029884, y: -0.0000004958751, z: 0.0017447053, w: 0.9999985}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: stickmanRDigit21
+      parentName: stickmanRPalm
+      position: {x: -0.13192064, y: 0.00012892485, z: -0.010319412}
+      rotation: {x: 0.088796936, y: 0.036627933, z: -0.029558592, w: 0.9949371}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1.0000004}
+    - name: stickmanRDigit22
+      parentName: stickmanRDigit21
+      position: {x: -0.053762794, y: 0.00000011920929, z: 0}
+      rotation: {x: 0.0046603577, y: -0.009220907, z: 0.03784605, w: 0.99923027}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: stickmanRDigit23
+      parentName: stickmanRDigit22
+      position: {x: -0.042949647, y: 0.000000059604645, z: -0.00000017881393}
+      rotation: {x: -0.00000064859404, y: -0.000000832127, z: -0.027048845, w: 0.99963415}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: stickmanRDigit41
+      parentName: stickmanRPalm
+      position: {x: -0.12713096, y: 0.0000885725, z: 0.030293405}
+      rotation: {x: 0.059920095, y: -0.00085838087, z: 0.07365117, w: 0.995482}
+      scale: {x: 1.0000002, y: 0.9999998, z: 1.0000002}
+    - name: stickmanRDigit42
+      parentName: stickmanRDigit41
+      position: {x: -0.06489062, y: 0.00000011920929, z: 0.00000011920929}
+      rotation: {x: -0.00000077858505, y: -0.00000013719534, z: 0.03819732, w: 0.9992702}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: stickmanRDigit43
+      parentName: stickmanRDigit42
+      position: {x: -0.04017651, y: 0, z: 0.000000059604645}
+      rotation: {x: -0.000000039371603, y: -0.00000003425481, z: 0.10799993, w: 0.99415094}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: stickmanRDigit51
+      parentName: stickmanRPalm
+      position: {x: -0.13117027, y: -0.00039583445, z: 0.07025689}
+      rotation: {x: 0.31110314, y: 0.038692065, z: -0.0042800577, w: 0.9495786}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+    - name: stickmanRDigit52
+      parentName: stickmanRDigit51
+      position: {x: -0.048548043, y: 0.00000008940697, z: 0}
+      rotation: {x: -0.00000047683693, y: 0.0000035278483, z: 0.033554643, w: 0.999437}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: stickmanRDigit53
+      parentName: stickmanRDigit52
+      position: {x: -0.03710285, y: 0.000000029802322, z: 0}
+      rotation: {x: -0.000000041821753, y: 0.00000011317571, z: 0.19765893, w: 0.98027086}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: stickmanLThigh
+      parentName: stickmanPelvis
+      position: {x: 0.070087194, y: 0.011092376, z: 0.138984}
+      rotation: {x: -0.11347854, y: 0.98667675, z: -0.11385089, w: -0.025091141}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: stickmanLCalf
+      parentName: stickmanLThigh
+      position: {x: -0.64240134, y: 0.00000055134296, z: 0}
+      rotation: {x: -0.04147798, y: -0.013771543, z: 0.32352978, w: 0.9452082}
+      scale: {x: 1.0000008, y: 0.9999976, z: 1.0000015}
+    - name: stickmanLAnkle
+      parentName: stickmanLCalf
+      position: {x: -0.7091683, y: 0.00000017881393, z: 0.000002041459}
+      rotation: {x: -0.039487585, y: 0.01812803, z: -0.637964, w: 0.76883936}
+      scale: {x: 1.0000029, y: 0.99999964, z: 0.9999975}
+    - name: stickmanLToe
+      parentName: stickmanLAnkle
+      position: {x: -0.2579999, y: -0.00000086426735, z: -0.00000025704503}
+      rotation: {x: -0.027711546, y: -0.007888698, z: -0.2630163, w: 0.9643611}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000006}
+    - name: stickmanRThigh
+      parentName: stickmanPelvis
+      position: {x: 0.07008731, y: 0.011092339, z: -0.138984}
+      rotation: {x: -0.10865106, y: 0.9870094, z: -0.11631408, w: -0.02187537}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000004}
+    - name: stickmanRCalf
+      parentName: stickmanRThigh
+      position: {x: -0.6424011, y: 0.00000035762787, z: 0.0000001937151}
+      rotation: {x: 0.04426261, y: 0.0069021005, z: 0.31332734, w: 0.94858795}
+      scale: {x: 0.9999996, y: 1.0000021, z: 0.99999815}
+    - name: stickmanRAnkle
+      parentName: stickmanRCalf
+      position: {x: -0.70916784, y: -0.0000002682209, z: 0.000002041459}
+      rotation: {x: -0.021002404, y: -0.030773284, z: -0.618342, w: 0.7850256}
+      scale: {x: 0.99999726, y: 1.0000001, z: 1.0000021}
+    - name: stickmanRToe
+      parentName: stickmanRAnkle
+      position: {x: -0.25800002, y: 0.00000014901161, z: 0.00000033527613}
+      rotation: {x: 0.027832609, y: 0.0074443836, z: -0.27977297, w: 0.9596338}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
